@@ -191,3 +191,18 @@ footer div a {
     background: var(--background);
     padding: 0 10px;
 }
+
+.conttextlink {
+    width: 35%;
+
+    border-radius: 10px;
+    color: var(--defColor);
+    border: solid lime 1px;
+}
+
+.textlink {
+    margin: 12px;
+    font-family: var(--font);
+    color: lime;
+    text-decoration: none;
+}
