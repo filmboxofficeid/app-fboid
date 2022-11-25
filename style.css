@@ -193,11 +193,19 @@ footer div a {
 }
 
 .conttextlink {
-   max-width: 250px;
+    max-width: 500px;
 
     border-radius: 10px;
     color: var(--defColor);
     border: solid lime 1px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .conttextlink {
+        max-width: 250px;
+    }
+
 }
 
 .textlink {
