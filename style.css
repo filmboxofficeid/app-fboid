@@ -161,7 +161,7 @@ footer div a {
 }
 
 .smallLink {
-    max-width: 250px;
+    max-width: 300px;
     padding: 5px !important;
 }
 
@@ -198,12 +198,13 @@ footer div a {
     border-radius: 10px;
     color: var(--defColor);
     border: solid lime 1px;
+    margin-bottom: 15px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
 
     .conttextlink {
-        max-width: 250px;
+        max-width: 300px;
     }
 
 }
