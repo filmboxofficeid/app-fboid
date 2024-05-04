@@ -76,7 +76,9 @@ footer div a {
     text-decoration: none;
     text-transform: uppercase;
     transition: all .30s cubic-bezier(.08, .59, .29, .99);
-
+    min-width: 60%;
+    margin: 0 15px 22px;
+    
     border-radius: 10px;
     color: var(--defColor);
     border: solid var(--defColor) 1px;
@@ -197,8 +199,31 @@ footer div a {
 
     border-radius: 10px;
     color: var(--defColor);
+    border: solid yellow 1px;
+    margin-bottom: 30px;
+}
+
+.textlink {
+    margin: 12px;
+    font-family: var(--font);
+    color: yellow;
+    text-decoration: none;
+}
+
+.conttextlink-2 {
+    max-width: 60%;
+
+    border-radius: 10px;
+    color: var(--defColor);
     border: solid lime 1px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.textlink-2 {
+    margin: 12px;
+    font-family: var(--font);
+    color: lime;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -206,12 +231,9 @@ footer div a {
     .conttextlink {
         max-width: 80%;
     }
-
+    
+    .conttextlink-2 {
+        max-width: 80%;
+    }
 }
 
-.textlink {
-    margin: 12px;
-    font-family: var(--font);
-    color: lime;
-    text-decoration: none;
-}
